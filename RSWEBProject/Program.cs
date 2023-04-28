@@ -80,6 +80,11 @@ var app = builder.Build();
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
+
+        // Apply any pending migrations
+    var dbContext = services.GetRequiredService<RSWEBProjectContext>();
+    dbContext.Database.Migrate();
+
     SeedData.Initialize(services);
 }
 
