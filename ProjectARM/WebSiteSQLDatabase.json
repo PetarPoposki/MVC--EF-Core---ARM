@@ -92,7 +92,7 @@
   "variables": {
     "webSiteName": "rsweb-mvc-app",
     "sqlserverName": "rsweb-mvc-app",
-    "storageName": "rsweb-mvc-app"
+    "storageName": "rswebmvcapp"
   },
   "resources": [
     {
