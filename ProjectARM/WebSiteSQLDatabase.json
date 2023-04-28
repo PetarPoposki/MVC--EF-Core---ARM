@@ -90,9 +90,9 @@
     }
   },
   "variables": {
-    "webSiteName": "[concat('webSite', uniqueString(resourceGroup().id))]",
-    "sqlserverName": "[concat('sqlserver', uniqueString(resourceGroup().id))]",
-    "storageName": "[concat('storage', uniqueString(resourceGroup().id))]"
+    "webSiteName": "rsweb-mvc-app",
+    "sqlserverName": "rsweb-mvc-app",
+    "storageName": "rsweb-mvc-app"
   },
   "resources": [
     {
